@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,600;1,800&display=swap");
+
+:root {
+  --red: rgb(204, 22, 22);
+  --white: rgb(255, 255, 255);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+section .hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero-bg.jpg);
+  object-fit: cover;
+  padding: 15rem 0;
+}
+
+section .data:hover {
+  transition: 0.5s ease;
+  background-color: var(--red);
+  color: var(--white) !important;
+}
