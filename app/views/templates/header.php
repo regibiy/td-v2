@@ -28,10 +28,13 @@
                         <a class="nav-link <?= $data["marker"][0] ?>" href="<?= BASEURL ?>">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?= $data["marker"][1] ?>" href="#">Pelatih</a>
+                        <a class="nav-link <?= $data["marker"][1] ?>" href="<?= BASEURL ?>/satlat">Satlat</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?= $data["marker"][2] ?>" href="#">Petarung</a>
+                        <a class="nav-link <?= $data["marker"][2] ?>" href="#">Pelatih</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?= $data["marker"][3] ?>" href="#">Petarung</a>
                     </li>
                 </ul>
             </div>
