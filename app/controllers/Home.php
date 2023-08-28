@@ -5,8 +5,8 @@ class Home extends Controller
     {
         $data["title"] = "Home";
         $data["marker"] = ["active", "", "", ""];
-        $this->view("templates/header", $data);
-        $this->view("home/index", $data);
-        $this->view("templates/footer");
+        $this->UserView("templates/header", $data);
+        $this->UserView("home/index", $data);
+        $this->UserView("templates/footer");
     }
 }

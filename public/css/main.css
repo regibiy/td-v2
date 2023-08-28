@@ -3,20 +3,42 @@
 :root {
   --red: rgb(204, 22, 22);
   --white: rgb(255, 255, 255);
+  --black-opac: rgba(0, 0, 0, 0.5);
 }
 
 * {
   font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 section .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero-bg.jpg);
+  background-image: linear-gradient(var(--black-opac), var(--black-opac)), url(../img/hero-bg.jpg);
+  background-attachment: fixed;
   object-fit: cover;
   padding: 15rem 0;
 }
 
-section .data:hover {
+section .data {
   transition: 0.5s ease;
+}
+
+section .data:hover {
   background-color: var(--red);
   color: var(--white) !important;
+}
+
+.half-height {
+  height: 70vh;
+}
+
+.fs-7 {
+  font-size: 14px;
+}
+
+.img-full {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

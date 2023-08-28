@@ -7,7 +7,10 @@
     <title><?= $data["title"] ?></title>
     <link rel="shortcut icon" href="<?= BASEURL ?>/img/about.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" />
     <link rel="stylesheet" href="<?= BASEURL ?>/css/main.css">
+    <link rel="stylesheet" href="<?= BASEURL ?>/css/responsive.css">
 </head>
 
 <body>
@@ -31,10 +34,10 @@
                         <a class="nav-link <?= $data["marker"][1] ?>" href="<?= BASEURL ?>/satlat">Satlat</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?= $data["marker"][2] ?>" href="#">Pelatih</a>
+                        <a class="nav-link <?= $data["marker"][2] ?>" href="<?= BASEURL ?>/pelatih">Pelatih</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?= $data["marker"][3] ?>" href="#">Petarung</a>
+                        <a class="nav-link <?= $data["marker"][3] ?>" href="<?= BASEURL ?>/petarung">Petarung</a>
                     </li>
                 </ul>
             </div>

@@ -63,9 +63,3 @@
         </div>
     </div>
 </section>
-
-<footer class="bg-dark">
-    <div class="container text-white text-center">
-        <p class="m-0 py-4">Website Pendataan Tarung Derajat V.2</p>
-    </div>
-</footer>

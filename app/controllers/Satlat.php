@@ -5,17 +5,17 @@ class Satlat extends Controller
     {
         $data["title"] = "Satuan Latihan";
         $data["marker"] = ["", "active", "", ""];
-        $this->view("templates/header", $data);
-        $this->view("satlat/index");
-        $this->view("templates/footer");
+        $this->UserView("templates/header", $data);
+        $this->UserView("satlat/index");
+        $this->UserView("templates/footer");
     }
 
     public function detail()
     {
         $data["title"] = "Detail Satuan Latihan";
         $data["marker"] = ["", "active", "", ""];
-        $this->view("templates/header", $data);
-        $this->view("satlat/detail");
-        $this->view("templates/footer");
+        $this->UserView("templates/header", $data);
+        $this->UserView("satlat/detail");
+        $this->UserView("templates/footer");
     }
 }
