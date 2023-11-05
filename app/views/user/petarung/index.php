@@ -2,7 +2,7 @@
     <div class="d-flex justify-content-between align-items-center flex-wrap border-bottom mb-3">
         <h1 class="fs-6 text-dark-emphasis">Petarung di Seluruh Kalimantan Barat</h1>
         <div class="col-12 col-xl-2 mb-2">
-            <input type="text" class="form-control form-control-sm" name="cari_pelatih" id="search" placeholder="Cari pelatih...">
+            <input type="text" class="form-control form-control-sm" name="cari_pelatih" id="search" placeholder="Cari petarung...">
         </div>
     </div>
 

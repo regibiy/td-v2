@@ -1,0 +1,13 @@
+{
+  "name": "td-v2",
+  "version": "1.0.0",
+  "description": "PENDATAAN TARUNG DERAJAT PROVINSI KALIMANTAN BARAT MENGGUNAKAN PHP MVC",
+  "main": "public/js/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node public/js/main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

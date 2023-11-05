@@ -13,8 +13,10 @@
   box-sizing: border-box;
 }
 
+/* user's styling starts */
 section .hero {
-  background-image: linear-gradient(var(--black-opac), var(--black-opac)), url(../img/hero-bg.jpg);
+  background-image: linear-gradient(var(--black-opac), var(--black-opac)),
+    url(../img/hero-bg.jpg);
   background-attachment: fixed;
   object-fit: cover;
   padding: 15rem 0;
@@ -42,3 +44,18 @@ section .data:hover {
   height: 100%;
   object-fit: cover;
 }
+/* user's styling end */
+
+/* admin's styling start */
+.my-mt-4 {
+  margin-top: 4.5rem;
+}
+
+.my-mt-18 {
+  margin-left: 18.3rem;
+}
+
+.my-min-height-40 {
+  height: 20px;
+}
+/* admin's styling end */

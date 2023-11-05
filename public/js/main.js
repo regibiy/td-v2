@@ -1,20 +1,4 @@
-let languageConfig = {
-  emptyTable: "Tidak ada data yang tersedia pada tabel ini",
-  info: "Menampilkan _START_ sampai _END_ dari _TOTAL_ entri",
-  infoEmpty: "Menampilkan 0 sampai 0 dari 0 entri",
-  infoFiltered: "(disaring dari _MAX_ entri keseluruhan)",
-  lengthMenu: "Tampilkan _MENU_ entri",
-  loadingRecords: "Sedang memuat...",
-  processing: "Sedang memproses...",
-  search: "Cari:",
-  zeroRecords: "Tidak ditemukan data yang sesuai",
-  paginate: {
-    first: "<<",
-    last: ">>",
-    next: ">",
-    previous: "<",
-  },
-};
+import { data, languageConfig } from "./utils.js";
 
 $("#pelatih").DataTable({
   language: languageConfig,
@@ -22,4 +6,18 @@ $("#pelatih").DataTable({
 
 $("#petarung").DataTable({
   language: languageConfig,
+});
+
+const ctx = document.getElementById("myChart");
+
+new Chart(ctx, {
+  type: "bar",
+  data: data,
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true,
+      },
+    },
+  },
 });
